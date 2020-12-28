@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin-top: 16%;
+}
+
+.urlInput{
+  width: 500px;
+}
+
+.optionInput{
+  margin: 0 30px;
+}
+
+.convertInput{
+  background: #4582e1;
+  height: 32px;
+  width: auto;
+  border-radius: 8px;
+  border-color: #3a6ebf;
+  margin: 0 30px;
+}
+
+.convertInput:hover{
+  background: #588fe6;
+}

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  div.App
+    h1 #{title}
+    input#urlInput.urlInput(placeholder="https://www.youtube.com/watch...")
+    div
+      select#optionInput.optionInput
+        option(value="both") Both
+        option(value="video") Video
+        option(value="audio") Audio
+      input.convertInput(type="button" value="Convert" onclick="sendConvert();")
